@@ -1,0 +1,25 @@
+{% extends "cars/home.html" %}
+
+
+
+{% block content %}
+   <form action=" " method="post" enctype="multipart/form-data">
+     {% csrf_token %}
+  <fieldset>
+    <legend>Register New Account:</legend>
+      {% for error in form.errors.items %}
+        <div class="alert alert-danger">
+            <strong>{{ error|escape }}</strong>
+        </div>
+    {% endfor %}
+      {% for field in form %}
+
+        {{ field.label_tag }}<br>
+
+        {{ field }}<br>
+      {% endfor %}
+
+    <input type="submit" value="Register" name='csrfmiddlewaretoken'>
+  </fieldset>
+</form>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "cars/home.html" %}
+
+{% block content %}
+     <form action="results">
+  <fieldset>
+
+    <legend>Search for Car:</legend>
+      Make:<br>
+        <input type="text" name="make" placeholder="search make"><br>
+      Model:<br>
+        <input type="text" name="model" placeholder="search model"><br>
+      Release Year:<br>
+        <input type="text" name="car_pic" placeholder="search year"><br><br>
+
+      <input type="submit" value="Submit">
+  </fieldset>
+</form>
+{% endblock %}

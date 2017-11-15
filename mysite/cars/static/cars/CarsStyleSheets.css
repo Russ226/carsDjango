@@ -1,0 +1,117 @@
+.header-img{
+        width:150px;
+        height:65px;
+        margin: 5px 20px 0px 20px;
+    }
+    .button-background{
+        background-color:#E8E8E8;
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-family:Aguafina Script;
+        display: inline;
+        font-size:50px;
+        color:#000000;
+
+    }
+    h2 {
+        font-size: 1.5vw;
+    }
+    h3{
+
+        margin-left:200px;
+    }
+    .img-border{
+        border-style: solid;
+        border-width: 5px;
+        margin-left: 80px;
+        margin-bottom: 5px;
+
+    }
+    body{
+        background-color:#DDDDDD;
+    }
+    .navigation-bar{
+        background-color:#666666;
+    }
+    .button-borders{
+        margin-right: 30px;
+        margin-bottom: 5px;
+    }
+    .page-borders{
+        margin-left: 20px;
+    }
+
+    .size-of-posts{
+        width: 200px;
+        height: 125px;
+    }
+    #header,
+	#footer {
+		background-color: #f1f1f1;
+	}
+
+	#main-wrap {
+		background-color: #D9D9D9;
+	}
+
+	#sidebar {
+		background-color: #d2d2d2;
+	}
+
+	#content-wrap {
+		background-color: #c5c5c5;
+	}
+
+	/* sizes */
+	#main-wrap > div {
+		min-height: 450px;
+	}
+
+
+	#header,
+	#footer {
+		min-height: 40px;
+	}
+
+
+
+	#main-wrap > div { min-height: 900px; }
+
+
+	#header,
+	#footer {
+
+	    min-height: 20px;
+	}
+
+
+
+	#main-wrap {
+	    /* overflow to handle inner floating block */
+	    overflow: hidden;
+	}
+
+	#sidebar {
+	    float: left;
+
+	    width: 10%;
+
+	}
+
+	#content-wrap {
+	    float: right;
+
+	    width: 90%;
+	}
+	body{width:100%;margin:auto;min-width:600px;max-width:2000px}
+
+    .h-margins{
+        margin:15px 0px 15px 0px;
+    }
+    .background-image{
+        background-image: url("http://www.classiccarweekly.net/wp-content/uploads/2013/05/Packard2Banner.jpg");
+        background-size: cover;
+        opacity: ;
+
+    }

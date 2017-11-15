@@ -1,0 +1,25 @@
+{% extends "cars/home.html" %}
+
+
+
+{% block content %}
+
+   <form action=" " method="post" enctype="multipart/form-data" >{% csrf_token %}
+    <fieldset>
+      <legend>Login into Account:</legend>
+        {% for error in form.non_field_errors %}
+          <div class="alert alert-danger">
+              <strong>{{ error|escape }}</strong>
+          </div>
+      {% endfor %}
+        {% for field in form %}
+          {{ forms.errors }}
+          {{ field.label_tag }}<br>
+          {{ field }}<br><br>
+        {% endfor %}
+
+      <input type="submit" value="Login">
+    </fieldset>
+  </form>
+
+{% endblock %}

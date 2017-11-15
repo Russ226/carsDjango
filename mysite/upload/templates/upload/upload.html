@@ -1,0 +1,23 @@
+{% extends "cars/home.html" %}
+
+{% block content %}
+{{ form.errors }}
+{{ form.non_field_errors }}
+   <form action="" method="post">
+  {% csrf_token %}
+  <fieldset>
+
+    <legend>Upload Info About a Car:</legend>
+    Make:<br>
+    <input id="make" type="text" name="make" placeholder="Enter Make"><br>
+    Model:<br>
+    <input id="model"type="text" name="model" placeholder="Enter Model"><br>
+      Release Year:<br>
+    <input id= "release_year"type="text" name="release_year" placeholder="Enter Year"><br>
+       Image Link:<br>
+    <input id="car_pic" type="url" name="car_pic" placeholder="Enter Image Link"><br><br>
+
+    <input type="submit" value="upload">
+  </fieldset>
+</form>
+{% endblock %}

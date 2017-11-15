@@ -1,0 +1,34 @@
+{% extends "cars/home.html" %}
+
+
+{% include 'users/login.html' %}
+
+
+{% block content %}
+    {% for object in objects_list %}
+        <div class="img-thumbnail container-fluid img-border">
+            <img src="{{object.car_pic}}" class="size-of-posts">
+            <p>make: {{object.make}} </p>
+            <p>model: {{object.model}} </p>
+            <p>Production: {{object.release_year}} </p>
+        </div>
+    {% endfor %}
+
+<br><br>
+<div class="pagination container-fluid page-borders">
+    <span class="step-links">
+        {% if objects_list.has_previous %}
+            <a href="?page={{ objects_list.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ objects_list.number }} of {{ objects_list.paginator.num_pages }}.
+        </span>
+
+        {% if objects_list.has_next %}
+            <a href="?page={{ objects_list.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+
+{% endblock %}

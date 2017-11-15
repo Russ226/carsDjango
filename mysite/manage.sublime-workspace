@@ -1,0 +1,356 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ros",
+				"roster"
+			],
+			[
+				"ord",
+				"order"
+			],
+			[
+				"pr",
+				"print_roster"
+			],
+			[
+				"re",
+				"reps"
+			],
+			[
+				"op",
+				"operator"
+			],
+			[
+				"de",
+				"decrpyted_message"
+			],
+			[
+				"min",
+				"min_time_to_finish"
+			],
+			[
+				"ma",
+				"math"
+			],
+			[
+				"max",
+				"max_stack"
+			],
+			[
+				"in",
+				"inv_stacks"
+			],
+			[
+				"co",
+				"counter2"
+			],
+			[
+				"coun",
+				"counter1"
+			],
+			[
+				"len",
+				"len_of_most"
+			],
+			[
+				"V",
+				"value"
+			],
+			[
+				"party",
+				"party"
+			],
+			[
+				"so",
+				"sorted_dict"
+			],
+			[
+				"s",
+				"sort_dict"
+			],
+			[
+				"part",
+				"party_roster"
+			],
+			[
+				"r",
+				"roster"
+			],
+			[
+				"ev",
+				"evac_order"
+			],
+			[
+				"le",
+				"len_of_stacks"
+			],
+			[
+				"l",
+				"len_of_stacks"
+			],
+			[
+				"len_of_st",
+				"len_of_stacks"
+			],
+			[
+				"c",
+				"ceil"
+			],
+			[
+				"p",
+				"pancakes"
+			],
+			[
+				"pna",
+				"pancakes"
+			],
+			[
+				"pan",
+				"pancakes"
+			],
+			[
+				"ra",
+				"readline"
+			],
+			[
+				"cur",
+				"cur_max_len"
+			],
+			[
+				"pre",
+				"prev_max_len"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"ot",
+				"outfile"
+			],
+			[
+				"ln",
+				"length"
+			],
+			[
+				"lea",
+				"leaders"
+			],
+			[
+				"leader",
+				"leader_name"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"t",
+				"todocontroller"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Pac",
+		"selected_items":
+		[
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/russ/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/russ/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/russ/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/russ/Desktop/cs3150/C.class",
+		"/home/russ/Desktop/cs3150/hw/cipher/decrypt.py",
+		"/home/russ/Desktop/cs3150/hw/getting Digits/digits.py",
+		"/home/russ/Desktop/cs3150/hw/country leader/leader.py",
+		"/home/russ/Desktop/cs3150/hw/Revenge of the Pancakes/rev_pancakes.py",
+		"/home/russ/Desktop/cs3150/hw/Senate evac/Senate_Evac.py",
+		"/home/russ/Desktop/cs3150/hw/Infinite House of Pancakes/Infinite.py",
+		"/home/russ/Desktop/cs3150/hw/Magic Trick/magic_trick.cpp",
+		"/home/russ/Desktop/nodeJS/to_do_app/controller/todocontroller.js",
+		"/home/russ/Desktop/cs3150/hw/counting Sheep/sheep.cpp",
+		"/home/russ/Desktop/cs3150/hw/Tic-Tac-Toe-Tomek/tomek.cpp",
+		"/home/russ/Desktop/cs3150/hw/tidy numbers/tidy.cpp",
+		"/home/russ/Desktop/nodeJS/to_do_app/views/todo.ejs",
+		"/home/russ/Desktop/nodeJS/to_do_app/to_do_main.js",
+		"/home/russ/Desktop/nodeJS/to_do_app/public/assets/todo-list.js",
+		"/home/russ/Desktop/cs3150/hw/x squared/squared.cpp",
+		"/home/russ/Desktop/nodeJS/to_do_app/node_modules/express/lib/response.js",
+		"/home/russ/Desktop/nodeJS/to_do_app/public/assets/styles.css",
+		"/home/russ/Desktop/SQLdb/superhuman.sql",
+		"/home/russ/Desktop/nodeJS/to_do_app/node-js-playlist/public/assets/todo-list.js",
+		"/home/russ/Desktop/nodeJS/tut/views/partials/contact.ejs",
+		"/home/russ/Desktop/nodeJS/tut/views/contact-sucess.ejs",
+		"/home/russ/Desktop/nodeJS/tut/extut.js",
+		"/home/russ/Desktop/SQLdb/tut2.java",
+		"/home/russ/Desktop/nodeJS/tut/views/partials/part.ejs",
+		"/home/russ/Desktop/nodeJS/tut/views/profile.ejs",
+		"/home/russ/Desktop/nodeJS/tut/contact.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"roster",
+			"\t\t\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 139.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
